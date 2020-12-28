@@ -1,0 +1,1 @@
+<?php $db = new mysqli("localhost","root","","xone");$db->set_charset("utf8");?>

@@ -1,0 +1,1194 @@
+header {
+    float: left;
+    width: 100%;
+    background: black;
+    height: 80px;
+}
+input,buttun {outline: unset}
+a,p,h1,h2,h3,h4,input,textarea {
+    color: #fff;
+    text-align:right;
+    direction:rtl;
+}
+
+ul,li {margin: unset;padding: unset;}
+
+@font-face {
+	font-family: 'yekan';
+	src: url('/cache/font/IRANSansWeb_Bold.ttf'),url('/cache/font/IRANSansWeb.ttf');
+}
+
+button,input,textarea,p,h1,h2,h3,h4,a {
+	font-family: 'yekan';
+}
+
+body {
+    background: #1a1a1a;
+}
+
+.fix-head {
+    float: right;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: black;
+    z-index: 100;
+    width: 100%;
+}
+.imghold {
+    width: 150px;
+}
+
+section.blulin ul li ,.searchint {
+    width: 210px !important;
+}
+.imghold {
+    width: 150px;
+}
+
+.fix-head li:nth-child(1) {
+    float: right;
+}
+
+.fix-head ul li:nth-child(1) img {
+    width: 40px;
+    height: 40px;
+    float: right;
+    filter: invert(1);
+}
+
+.fix-head ul {
+    width: 100%;
+    float: right;
+}
+
+li {}
+
+.fix-head li {
+    color: #fff;
+}
+
+ul,li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+body {
+    margin: unset;
+}
+
+.fix-head {
+    height: 80px;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+}
+
+.fix-head li:nth-child(1) im {}
+
+.fix-head ul li a,p {
+    float: right;
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+}
+
+.fix-head ul li {
+    width: 100px;
+    float: left;
+    text-align: center;
+}
+
+.fix-head ul li:nth-child(1) p {
+    margin-top: 3px;
+    margin-right: 10px;
+}
+
+.fix-head ul li:nth-child(1) {
+    width: 200px;
+}
+
+.fix-head ul li a p {
+    margin-top: 7px;
+}
+
+.tmsbm {
+    background: #407bff;
+    border: unset;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    padding-top: 7px;
+    margin-top: 10px;
+    font-size: 22px;
+}
+.margin { width: 1200px ; margin: 0 auto; }
+input.tmsbm {
+    padding: 7px 15px;
+    padding-top: 1px;
+    font-size: 19px;
+    margin-top: 5px;
+}
+
+input.srbma {
+    background: unset;
+    border: unset;
+    color: white;
+    font-size: 22px;
+    margin: 4px;
+    margin-left: 40px;
+}
+.right-mo {
+    float: right;
+    width: 65%;
+}
+
+.left-mo {
+    float: left;
+    width: 35%;
+}
+
+.right-mo p {
+    font-size: 14px;
+    float: right;
+    width: 100%;
+    text-align: right;
+    margin-top: 90px;
+}
+
+.right-mo h1 {
+    width: 78%;
+    color: #fff;
+    float: right;
+    text-align: right;
+    margin: unset;
+    margin-top: -7px;
+}
+
+.left-mo form {
+    float: left;
+    width: 100%;
+    background: black;
+    border-radius: 5px;
+    margin-top: 35px;
+    overflow: hidden;
+    box-shadow: 0 0  5px rgba(0,0,0,.2);
+    transform: scale(.95);
+    transition: .3s;
+}
+
+.left-mo p:nth-child(1) {
+    float: right;
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.left-mo h1 {
+    font-size: 26px;
+    color: #fff;
+    margin: unset;
+    width: 100%;
+    text-align: center;
+    margin-top: -15px;
+    float: left;
+}
+
+.left-mo ul li p {
+    float: right !important;
+    width: 30% !important;
+    text-align: right !important;
+}
+
+.left-mo li {
+    width: 84%;
+    height: 50px;
+    margin: 5px 0;
+    float: right;
+    padding: 0 8%;
+}
+
+
+.left-mo ul {
+    margin-top: 15px;
+    float: right;
+}
+
+.left-mo ul li input {
+    width: 67%;
+    float: left;
+    background: rgba(255,255,255,.2);
+    border: 1px solid rgba(255,255,255,.05);
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 19px;
+}
+
+.left-mo ul li textarea {
+    width: 67%;
+    float: left;
+    background: rgba(255,255,255,.2);
+    border: 1px solid rgba(255,255,255,.05);
+    border-radius: 5px;
+    margin-top: 19px;
+}
+
+input.sbt-mo {
+    float: left;
+    width: 100%;
+    height: 50px;
+    background: #407bff;
+    border: unset;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.left-mo form:hover {
+    transform: scale(1);
+}
+.fix-head ul {
+    margin-top: 17px;
+}
+
+.bloga
+ {
+    margin-top: -26px;
+    font-size: 17px !important;
+    width: 100%;
+    text-align: center !important;
+    margin-left: 0;
+    margin-top: -16px;
+}
+
+li.blogli {
+    width: 65px !important;
+    float: left;
+    margin-left: 27px;
+    margin-top: 0px;
+}
+input.sbt-mo {
+    text-align: center;
+    font-size: 18px;
+}
+.left-mo ul li textarea {height: 85px;float: left;}
+
+.left-mo li {height: auto;}
+section.blulin {
+    float: left;
+    width: 100%;
+    height: 110px;
+    background: #407bff;
+}
+
+section.moshv {
+    height: 275px;
+    float: right;
+    width: 100%;
+}
+
+ul {}
+
+section.blulin ul {
+    float: right;
+    width: 50%;
+    height: 110px;
+}
+
+section.blulin ul li {
+    width: 170px;
+    height: 110px;
+    float: right;
+}
+
+section.blulin ul li img {
+    filter: invert(1);
+    width: 35px;
+    float: right;
+    height: 100;
+}
+
+section.blulin ul li h3, a {
+    float: right;
+    margin: 0;
+    margin-right: 20px;
+    margin-top: -15px;
+    color: #fff;
+}
+
+section.blulin ul li p {
+    float: right;
+    font-size: 14px;
+    text-align: right;
+}
+.imghold {
+    float: left;
+    width: 129px;
+    margin-top: 15px;
+    margin-right: 25px;
+}
+
+section.blulin ul li {
+    width: 195px;
+}
+
+section.blulin ul li h3 {
+    margin: unset;
+}
+
+section.blulin ul li p {
+    margin: unset;
+}
+
+section.blulin ul li {
+    height: 100%;
+    float: right;
+    transition: .3s;
+    cursor: pointer;
+    padding: 0 15px;
+}
+
+section.blulin ul li h3, a {
+    margin: unset;
+    margin-top: unset;
+}
+
+.imghold {}
+
+section.blulin ul li img {
+    margin-top: 34px;
+}
+
+section.blulin ul li:hover {
+    background: rgba(0,0,0,.1);
+}
+li {}
+
+section.blulin ul {width: 60%;}
+section.why-bck {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: #131313;
+}
+
+.ay-mid {
+    float: right;
+    width: 56%;
+    background: #fff;
+    height: 166px;
+    border-radius: 5px;
+    margin-top: 45px;
+    color: #000;
+    padding: 0 1%;
+    padding-left: 4%;
+    position: relative;
+}
+
+@keyframes onoff {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity;1;
+    }
+}
+
+.chshm {
+    float: right;
+    background: #407bff;
+    width: 30px;
+    height: 30px;
+    animation: onoff 1s linear infinite;
+    border-radius: 50%;
+    transform: scale(.4);
+    margin-top: 16px;
+}
+
+.ay-mid h3 {
+    float: right;
+    text-align: right;
+    direction: rtl;
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.ay-mid p {
+    float: right;
+    width: 100%;
+    margin: unset;
+    color: #000;
+    text-align: right;
+    margin: -20px 24px;
+    font-size: 18px;
+    font-weight: 100;
+    opacity: .8;
+}
+
+input.bishay {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    background: #407bff;
+    border: unset;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 13px;
+}
+.owl-carousel.com {
+    float: left;
+    width: 100%;
+    height: 250px;
+    margin-top: 55px;
+}
+.whymobo {
+    float: left;
+    width: 100%;
+}
+
+.com .owl-stage-outer {
+    padding: unset;
+    margin: unset;
+    width: 100%;
+}
+
+h2 {}
+
+h2.xzn {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
+    margin-bottom: unset;
+}
+
+p.xxn {
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin: unset;
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 14px;
+    opacity: .8;
+}
+
+.lftwhys {
+    float: left;
+    width: 40%;
+}
+
+.lftwhys img {
+    width: 100%;
+}
+
+.rightmcw {
+    float: right;
+    width: 60%;
+    text-align: right;
+    color: #fff;
+}
+
+.rightmcw h3 {
+    float: right;
+    font-size: 22px;
+    margin: unset;
+    margin-top: 26%;
+}
+
+.rightmcw p {
+    text-align: right;
+    margin: unset;
+    margin-top: 12px;
+    font-size: 16px;
+}
+.owl-carousel.com {
+    margin-top: 0;
+    height: 485px;
+}
+.controlcom {
+    float: left;
+    width: 80px;
+    background: rgba(255,255,255,.1);
+    height: 40px;
+    border: 1px solid rgba(255,255,255,.1);
+    border-radius: 30px;
+    margin-top: -25px;
+    margin-left: 50px;
+}
+
+.controlcom input {
+    width: 47%;
+    margin: unset;
+    padding: unset;
+    border: unset;
+    height: 100%;
+    background: unset;
+    text-align: center;
+    font-size: 17px;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 50px;
+}
+
+.controlcom input:hover {
+    background: black;
+}
+
+h2.xzn, p.xxn {
+    width: 70%;
+    text-align: right;
+    float: right;
+}
+.com .owl-nav {display: none}
+.morfblog {
+    float: left;
+    width: 100%;
+}
+
+.lfthot {
+    float: left;
+    width: 45%;
+}
+.topmorf img {
+    filter: invert(1);
+    width: 35px;
+    float: right;
+}
+
+.topmorf h3 {
+    color: #fff;
+    float: right;
+    margin: 5px 15px;
+}
+
+.hot .owl-item {
+    float: left;
+    background: rgba(255,255,255,.05);
+    border-radius: 5px;
+    overflow: hidden;
+    height: 410px;
+}
+
+.htbx img {
+    float: left;
+    height: 200px;
+    object-fit: cover;
+}
+
+.htbx h1 {
+    float: right;
+    font-size: 18px;
+    padding: 0 4%;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    background: #000;
+    height: 65px;
+    margin: unset;
+    padding-top: 10px;
+}
+
+.htbx p {
+    font-size: 14px;
+    padding: 4%;
+    text-align: justify;
+    margin: unset;
+}
+
+.hot {
+    margin-top: 30px;
+}
+
+.recbox {
+    float: right;
+    width: 98%;
+    background: #000;
+    border-radius: 7px;
+    margin-top: 29px;
+    padding: unset;
+    overflow: hidden;
+}
+
+.righmor {
+    float: right;
+    width: 55%;
+}
+
+.recbox ul {
+    padding: unset;
+    width: 100%;
+    margin: unset;
+}
+
+.recbox ul li {
+    float: left;
+    width: 92%;
+    padding: 0 4%;
+    height: 40px;
+    font-size: 9px;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    padding-bottom: 15px;
+    color: #fff;
+    transition: .3s;
+}
+
+.recbox ul li a {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.recbox ul li h1 {
+    float: right;
+}
+
+.recbox ul li p {
+    float: left;
+    font-size: 16px;
+}
+
+p {}
+
+.recbox ul li:first-child,.recbox ul li:first-child p, .recbox ul li:first-child h1 {
+    background: #fff;
+    color: #000;
+}
+
+.recbox ul li:last-child {
+    border-bottom: unset;
+}
+
+.recbox ul li:hover {
+    background: rgba(255,255,255,.1);
+}
+
+.recbox ul li:first-child:hover {}
+
+.recbox ul li:first-child:hover {
+    background: #fff;
+}
+.topmorf {
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.morfblog {
+    margin-bottom: 50px;
+}
+
+.hot .owl-item {
+    height: 445px;
+    border-radius: 7px;
+}
+.htbx a {
+    width: 100%;
+    height: 450px;
+    float: left;
+}
+.htbx a {
+    width: 100%;
+    height: 450px;
+    float: left;
+}
+
+.recbox ul li:first-child, .recbox ul li:first-child p, .recbox ul li:first-child h1 {
+    background: #262626;
+    color: #fff;
+}
+
+.recbox ul li:first-child:hover {
+    background: #262626;
+}
+.kolid {
+    float: left;
+    width: 100%;
+    height: 170px;
+    overflow: hidden;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.bclkj {
+    float: left;
+    width: 60%;
+    height: 100%;
+    background: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.bckjz {
+    float: left;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.bjcri {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 54%;
+    height: 100%;
+    background: #407bff;
+}
+
+.rasli {
+    float: left;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.rigtmg {
+    float: right;
+    color: #fff;
+    width: 50%;
+}
+
+.rigtmg img {
+    filter: invert(1);
+    width: 64px;
+    float: right;
+    margin-top: 40px;
+}
+
+.rigtmg h2 {
+    margin: 22px;
+    float: right;
+    margin-top: 28px;
+}
+
+.rigtmg p {
+    text-align: justify;
+    margin: unset;
+    font-size: 14px;
+    float: right;
+    margin: 0 85px;
+    margin-top: -35px;
+}
+
+.lfat {
+    float: left;
+    width: 42%;
+}
+
+.lfat img {
+    float: right;
+    width: 52px;
+    margin-top: 53px;
+    margin-left: 15px;
+    opacity: .3;
+}
+
+.lfat h3 {
+    float: right;
+    margin: 30px 10px;
+    margin-bottom: unset;
+}
+
+.lfat p {
+    float: right;
+    text-align: justify;
+    color: #000;
+    font-size: 14px;
+    margin: 0 12px;
+}
+
+.inpru {
+    float: right;
+    width: 80%;
+    height: 40px;
+    background: rgba(0,0,0,.06);
+    border-radius: 7px;
+    overflow: hidden;
+    border: 1px solid rgba(0,0,0,.1);
+    margin: 10px;
+}
+
+input.svtkh {
+    float: right;
+    width: 15%;
+    height: 100%;
+    background: #407bff;
+    border: unset;
+    color: #fff;
+    text-align: center;
+    transition: .3s;
+    cursor: pointer;
+}
+
+input.svtkh:hover {
+    background: black;
+}
+
+input.emtkh {
+    float: left;
+    border: unset;
+    background: unset;
+    text-align: left;
+    width: 75%;
+    height: 100%;
+    padding: 0 4%;
+    color: #000;
+}
+.whis {
+    width: 200px;
+    height: 300px;
+    float: left;
+    background: white;
+    z-index: 2;
+    position: absolute;
+    transform: rotate(45deg);
+    margin-top: -120px;
+    margin-left: -160px;
+    box-shadow: 5px -15px 20px 0px;
+}
+.bjcri {
+    width: 60%;
+}
+
+.bclkj {
+    z-index: 3;
+    width: 40%;
+}
+footer {
+    background: #000;
+    float: left;
+    width: 100%;
+    padding-bottom: 30px;
+    border-bottom: 10px #407bff solid;
+}
+
+.kolid {
+    margin-bottom: unset;
+}
+
+.lftfo {
+    float: left;
+    width: 30%;
+}
+
+.lftfo img {
+    background: #fff;
+    padding: 25px;
+    float: left;
+    width: 100px;
+    border-radius: 50%;
+    margin: 62px;
+    margin-bottom: unset;
+}
+
+.righ {
+    float: right;
+    width: 66%;
+    color: #fff;
+}
+
+.righ ul {
+    float: right;
+    text-align: right;
+    width: 300px;
+    list-style: circle;
+    margin-left: 10px;
+}
+
+.righ ul li {
+    float: right;
+    width: 100%;
+    list-style: arabic-indic;
+    direction: rtl;
+    height: 30px;
+}
+
+.righ ul li a {
+    margin: -5px 4px;
+}
+
+.righ ul h3 {
+    float: right;
+    margin-right: -10px;
+}
+
+.righ ul li a:hover {
+    color: #407bff;
+}
+
+.righ nav {
+    margin-top: 25px;
+}
+a.bloga {
+    font-size: 16px !important;
+    margin-top: -15px;
+    float: left;
+}
+section.moshv {
+    background-image: linear-gradient(225deg, #5851a9 0%, #2775ad 50%, #163850 100%);
+}
+section.why-bck {
+    border-bottom: 3px solid rgba(255,255,255,0.16);
+    box-shadow: 0 0 76px 10px rgba(0,0,0,.3);
+}
+.lftfo {
+    width: 20%;
+}
+
+.righ {
+    width: 80%;
+}
+.lftfo {
+    width: 20%;
+}
+
+.righ {
+    width: 80%;
+}
+
+.topmorf {
+    margin-top: 60px;
+}
+section.moshv.blogm h3 {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 22px;
+}
+
+.margin {}
+
+.inpunm {
+    width: 100%;
+    float: left;
+    height: 45px;
+    background: rgba(0,0,0,.3);
+    border-radius: 7px;
+    border: 1px solid rgba(0,0,0,.2);
+}
+
+.inpunm img {
+    float: left;
+    width: 45px;
+    height: 45px;
+    transform: scale(.4);
+    filter: invert(1);
+}
+
+.inpunm input {
+    background: unset;
+    color: #fff;
+    border: unset;
+    text-align: right;
+    width: 80%;
+    float: right;
+    height: 100%;
+    padding-right: 20px;
+}
+.whermi {
+    float: right;
+    width: 100%;
+    height: 55px;
+    background: #407bff;
+    margin-bottom: 50px;
+}
+
+.whermi h3 {
+    font-size: 16px;
+    margin-left: 10px;
+    float: right;
+}
+
+.whermi a {
+    float: right;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+.whermi a h1 {
+    float: right;
+    font-size: 18px;
+}
+
+.whermi img {
+    float: right;
+    filter: invert(1);
+    margin: 22px 0;
+    width: 10px;
+}
+nav.leftmn {
+    float: left;
+    width: 30%;
+}
+
+nav.leftmn ul {
+    float: left;
+    width: 100%;
+    background: rgba(255,255,255,.08);
+    margin-bottom: 20px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+nav.leftmn {}
+
+.tith {
+    float: right;
+    width: 97%;
+    font-size: 10px;
+    padding-right: 3%;
+    height: 60px;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    background: black;
+}
+
+.tith h2 {
+    margin: 18px 0;
+    float: right;
+}
+
+nav.leftmn ul li {
+    float: right;
+    width: 93%;
+    font-size: 10px;
+    list-style: arabic-indic !important;
+    direction: rtl;
+    height: 35px;
+    padding-right: 7%;
+    margin: unset;
+    border-bottom: 1px solid;
+}
+
+nav.leftmn ul li a {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+nav.leftmn ul li h1 {
+    float: right;
+    margin: unset;
+    margin-top: 5px;
+}
+
+.whermi {
+    margin-bottom: 30px;
+}
+section.posts {
+    float: right;
+    width: 64%;
+    padding: 0 3%;
+}
+
+.befps {
+    float: right;
+    width: 100%;
+    height: 45px;
+    margin-bottom: 30px;
+}
+
+.blog.righmor img {
+    float: right;
+    filter: invert(1);
+    width: 30px;
+    margin: 18px 0;
+    margin-left: 15px;
+}
+
+.blog.righmor h3 {
+}
+
+.show-sett {
+    float: left;
+    width: 100px;
+    margin: 10px 0;
+}
+
+.show-sett img {
+    filter: invert(1);
+    float: left;
+    width: 25px;
+    margin: 10px 0;
+    margin-left: 10px;
+    opacity: .5;
+}
+
+section.posts article {
+    float: left;
+    width: 100%;
+    height: 190px;
+    background: black;
+}
+section.posts article img {
+    float: right;
+    width: 250px;
+    height: 190px;
+    object-fit: cover;
+}
+
+section.posts article {
+    background: rgba(255,255,255,.05);
+    overflow: hidden;
+    position: relative;
+    transition: .3s;
+    border-radius: 7px;
+}
+
+section.posts article h1 {
+    float: right;
+    width: 477px;
+    background: #000;
+    margin: unset;
+    height: auto;
+    padding: 20px 20px;
+}
+
+section.posts article a {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+input.bishtart {
+    position: absolute;
+    float: left;
+    width: auto;
+    color: #fff;
+    background: #407bff;
+    bottom: 15px;
+    left: 15px;
+    padding: 3px 20px;
+    border: unset;
+    border-radius: 7px;
+}
+
+section.posts article p {
+    float: right;
+    text-align: justify;
+    font-size: 14px;
+    padding: 4%;
+    width: 59%;
+    margin: -15px;
+}
+section.posts article p {
+    padding-left: 0;
+    width: 63%;
+}
+
+section.posts article h1 {
+    font-size: 16px;
+    padding: 20px;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.24);
+}
+.posts article { margin-bottom: 15px}
+section.posts article img {
+    border-left: 1px solid rgba(255,255,255,.1);
+}
+section.posts article a {
+    position: absolute;
+}

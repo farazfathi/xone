@@ -1,0 +1,66 @@
+<head>
+	<link rel="stylesheet" href="/xone/tool/fun/html_editor/dist/ui/trumbowyg.min.css">
+	<link rel="stylesheet" href="/xone/tool/fun/html_editor/dist/plugins/emoji/ui/trumbowyg.emoji.min.css">
+	<link rel="stylesheet" href="/xone/tool/fun/html_editor/dist/plugins/colors/ui/trumbowyg.colors.min.css">
+	<link rel="stylesheet" href="/xone/tool/fun/html_editor/dist/plugins/table/ui/trumbowyg.table.min.css">
+	<link rel="stylesheet" href="/xone/tool/fun/html_editor/dist/ui/trumbowyg.min.css">
+	<link rel="stylesheet" href="/xone/tool/fun/html_editor/dist/plugins/highlight/ui/trumbowyg.highlight.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.13.0/themes/prism.css">
+
+
+</head>
+
+<body>
+
+	<script src="/xone/tool/fun/html_editor/dist/trumbowyg.min.js"></script>
+	<script src="/xone/tool/fun/html_editor/dist/plugins/emoji/trumbowyg.emoji.min.js"></script>
+	<script src="/xone/tool/fun/html_editor/dist/plugins/allowtagsfrompaste/trumbowyg.allowtagsfrompaste.min.js"></script>
+	<script src="/xone/tool/fun/html_editor/dist/plugins/cleanpaste/trumbowyg.cleanpaste.min.js"></script>
+	<script src="/xone/tool/fun/html_editor/dist/plugins/colors/trumbowyg.colors.min.js"></script>
+	<script src="/xone/tool/fun/html_editor/dist/plugins/fontfamily/trumbowyg.fontfamily.min.js"></script>
+	<script src="/xone/tool/fun/html_editor/dist/plugins/fontsize/trumbowyg.fontsize.min.js"></script>
+	<script src="/xone/tool/fun/html_editor/dist/plugins/history/trumbowyg.history.min.js"></script>
+	<script src="/xone/tool/fun/html_editor/dist/plugins/insertaudio/trumbowyg.insertaudio.min.js"></script>
+	<script src="/xone/tool/fun/html_editor/dist/plugins/lineheight/trumbowyg.lineheight.min.js"></script>
+	<script src="/xone/tool/fun/html_editor/dist/plugins/noembed/trumbowyg.noembed.min.js"></script>
+	<script src="/xone/tool/fun/html_editor/dist/plugins/pasteimage/trumbowyg.pasteimage.min.js"></script>
+	<script src="/xone/tool/fun/html_editor/dist/plugins/resizimg/trumbowyg.resizimg.min.js"></script>
+	<script src="/xone/tool/fun/html_editor/dist/plugins/table/trumbowyg.table.min.js"></script>
+	<script src="/xone/tool/fun/html_editor/dist/plugins/upload/trumbowyg.upload.min.js"></script>
+	<script src="/xone/tool/fun/html_editor/dist/langs/fa.js"></script>
+	<script src="/xone/tool/fun/html_editor/dist/plugins/pasteembed/trumbowyg.pasteembed.min.js"></script>
+	<script src="/xone/tool/fun/html_editor/dist/plugins/preformatted/trumbowyg.preformatted.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.13.0/prism.min.js"></script>
+
+	<script src="/xone/tool/fun/html_editor/dist/plugins/highlight/trumbowyg.highlight.min.js"></script>
+	
+
+<div class="lb_html_editor_box">
+<div id="trumbowyg-demo"></div>	
+</body>
+</div>
+
+
+
+<script type="text/javascript">
+	$('#trumbowyg-demo').trumbowyg({
+    	lang : 'fa',
+				btns : [
+        			['fullscreen'],
+					['highlight'],
+					['strong', 'em', 'del','formatting','list','fontsize','foreColor', 'backColor', 'link','horizontalRule','fontfamily'],
+					['justifyLeft', 'justifyCenter', 'justifyRight', 'justifyFull','table','insertImage','insertAudio', 'historyRedo','historyUndo','emoji'],
+					['viewHTML'],
+		],
+		btnsDef: {
+        	list: {
+          		dropdown:['unorderedList', 'orderedList'],
+       		}
+   		}
+	});
+
+	$('.trumbowyg-button-pane button,.trumbowyg-historyRedo-button ').click(function() {
+		$('.trumbowyg-modal').addClass('wait');
+		$('.trumbowyg-modal').removeClass('wait').addClass('active');
+	});
+</script>
